@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>articles.html</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <style>
+        body
+        {
+            
+            margin: 0;
+            padding: 0;
+            background-color: cadetblue;
+        }
+
+        header
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 30px;
+            background-color: wheat;
+        }
+        .nav
+        {
+          width: 100%;
+          height: auto;
+          margin: 0;
+          padding: 15px;
+          background-color: black;
+
+        }
+        .nav ul li 
+        {
+            margin: 0;
+            padding: 0;
+            padding: 3%;
+            display: inline-block;
+        }
+        .nav a
+        {
+            text-decoration: none;
+            list-style-type: none;
+            color: white;
+
+        }
+        .content
+        {
+          width: 80%;
+          height: auto;
+          margin: 0;
+          display: flex;
+          flex-direction: row;
+          margin-top: 3%;
+          margin-left: 15%;
+
+        }
+        .leftsidebar
+        {
+            width: 40%;
+            height: 450px;
+            background-color:lightcoral;
+        }
+        .rightsidebar
+        {
+            width: 40%;
+            height: 450px;
+            background-color: lightgreen;
+        
+        }
+        .rightsidebar details
+        {
+            padding: 5px 15px;
+
+        }
+        .footer
+        {
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 15px;
+            background-color: black;
+            color: white;
+            font-size: 25px;
+        }
+        .para
+        {
+           width: 80%;
+           height: auto;
+           
+        }
+
+    </style>       
+</head>
+<body>
+    <header>
+        <div class="logo"></div>
+        <div class="search"></div>
+        <div class="media-icon"></div>
+    </header>
+
+    <nav class="navbar nav">
+       <ul>
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">CONTACT</a></li>
+        <li><a href="">OUR SERVICES</a></li>
+        <li><a href="">FEEDBACK</a></li>
+      
+       </ul>
+    </nav>
+
+    <section class="content">
+        <div class="leftsidebar"></div>
+        <div class="rightsidebar">
+            <details>
+                <summary>
+                    <b> CLICK FOR MORE DETAILS</b>
+                </summary>
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, voluptatem, atque quibusdam veniam quae similique eligendi ullam nam quaerat quia cum et sed. Deleniti temporibus sunt corrupti, error quos non.</P>
+            </details>
+
+             <article class="para">
+                <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, voluptatem, atque quibusdam veniam quae similique eligendi ullam nam quaerat quia cum et sed. Deleniti temporibus sunt corrupti, error quos non.</P>
+            
+             </article>
+                   
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>copyright@all right resereved data </p>
+    </footer>
+
+</body>
+</html>
